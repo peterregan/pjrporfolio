@@ -5,9 +5,12 @@
   height: 500px;
   width: 300px;
 
+
 }
 .aboutdiv{
-  margin: 10%
+  margin: 10%;
+  outline-style: solid;
+  padding: 2%;
 
 }
 .aboutheader{
@@ -17,5 +20,6 @@
 
 }
 .aboutpara{
+
 
 }

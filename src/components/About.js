@@ -15,19 +15,12 @@ const styles = {
         backgroundColor: 'white'
     },
     gridleft: {
-
+        backgroundColor: 'white'
 
     },
     gridright: {
-        backgroundColor: 'white',
+        backgroundColor: 'white'
     },
-    paper: {
-
-    },
-    image: {
-        width: '50%',
-        height: '100%'
-    }
 };
 
 class About extends React.Component {
