@@ -3,5 +3,5 @@ div {
 
 }
 body {
-  background-color: darkgray;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }

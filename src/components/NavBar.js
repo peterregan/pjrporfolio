@@ -10,18 +10,18 @@ import Button from "@material-ui/core/Button";
 // styles for the navbar
 const useStyles = makeStyles(theme => ({
     root: {
-        backgroundColor: 'lightblue',
-        display: 'flex'
+        backgroundColor: 'darkgray',
+        color: 'white',
+        display: 'flex',
     },
     toolbar: {
-
     },
     title: {
         whiteSpace: 'nowrap'
-
     },
     buttons: {
-        marginLeft: '65%',
+        width: '100%',
+        textAlign: 'right',
         whiteSpace: 'nowrap',
     }
 
