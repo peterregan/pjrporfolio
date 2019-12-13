@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba682b4b-a7c6-4549-8c2a-05e5d270ed2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stylesheets/About.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/textbodies/AboutText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/textbodies/AboutText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stylesheets/About.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/About.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +95,10 @@
       <workItem from="1576198910887" duration="497000" />
       <workItem from="1576199777499" duration="1290000" />
       <workItem from="1576201403942" duration="1885000" />
-      <workItem from="1576203920043" duration="756000" />
+      <workItem from="1576203920043" duration="951000" />
+      <workItem from="1576259966214" duration="51000" />
+      <workItem from="1576269254053" duration="984000" />
+      <workItem from="1576270371764" duration="57000" />
     </task>
     <servers />
   </component>

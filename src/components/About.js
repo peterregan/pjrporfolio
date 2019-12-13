@@ -12,19 +12,20 @@ const styles = {
     },
     grid: {
         color: 'black',
+        backgroundColor: 'white'
     },
     gridleft: {
+
 
     },
     gridright: {
         backgroundColor: 'white',
-        height: '100%',
     },
     paper: {
 
     },
     image: {
-        width: '100%',
+        width: '50%',
         height: '100%'
     }
 };
@@ -36,11 +37,13 @@ class About extends React.Component {
             <div className={classes.root}>
                 <Grid container spacing={0} className={classes.grid}>
                     <Grid item xs={5} className={classes.gridleft}>
-                        <img src={require('../images/peterpropic.jpg')} alt="Peter" className={classes.image} />
+                        <img src={require('../images/peterpropic.jpg')} alt="Peter" className="aboutimg" />
                     </Grid>
                     <Grid item xs={7} className={classes.gridright}>
-                        <div className="aboutbody">
-                        <p>
+                        <div className="aboutdiv">
+                            <h1 className="aboutheader">Hello !</h1>
+                            <h2 className="aboutsubheader"> My name is Peter</h2>
+                        <p className="aboutpara">
                                 Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
                                 dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
                                 Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit

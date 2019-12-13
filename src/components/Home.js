@@ -12,31 +12,40 @@ import Avatar from "@material-ui/core/Avatar";
 {/* styles */}
 const styles = {
     root:{
-        marginLeft: '18%',
+        marginLeft: '18%', // margins, padding, borders
         marginRight: '18%',
         marginTop: '3%',
-        display: 'flex',
+        marginBottom: '3%',
+
+        display: 'flex', // display
+
         textAlign: 'center',
         textDecorationColor: 'white',
         color: 'white'
     },
     grid:{
-        backgroundColor: 'rgba(0,0,0,.7)',
-        padding: '4%',
-        fontSize: '24px',
-        align: 'center',
-        margin: 'auto',
+        backgroundColor: 'rgba(0,0,0,.7)', //color
+
+        padding: '4%', // margins, padding, borders
         borderRadius: '25px',
+        margin: 'auto',
+
+        fontSize: '24px', // text/color
+
+        align: 'center', // alignment
+
+
     },
     bigAvatar:{
-        marginLeft: 'auto',
+        marginLeft: 'auto', // margins, padding, borders
         marginRight: 'auto',
-        width: '150px',
+
+        width: '150px', // size
         height: '150px',
 
     },
     links: {
-        fontSize: '50px',
+        fontSize: '50px', // text/color
     },
 
 };
