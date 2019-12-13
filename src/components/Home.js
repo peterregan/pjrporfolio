@@ -12,17 +12,17 @@ import Avatar from "@material-ui/core/Avatar";
 {/* styles */}
 const styles = {
     root:{
+        marginLeft: '18%',
+        marginRight: '18%',
         marginTop: '3%',
-        marginLeft: '20%',
-        marginRight: '20%',
         display: 'flex',
         textAlign: 'center',
         textDecorationColor: 'white',
         color: 'white'
     },
     grid:{
+        backgroundColor: 'rgba(0,0,0,.7)',
         padding: '2%',
-        backgroundColor: 'rgba(0,0,0,.75)',
         fontSize: '24px',
         align: 'center',
         margin: 'auto',
@@ -48,9 +48,8 @@ class Home extends React.Component {
         const { classes } = this.props;
         return (
             <div className={classes.root}>
-                <Grid container spacing={0} className={classes.grid}>
+                <Grid  className={classes.grid}>
                     <Grid item xs={12}>
-
                         <Avatar src={require('../images/peterpropic.jpg')} alt="Peter" className={classes.bigAvatar}/>
                         <h1>Peter Regan</h1>
                         <h2>Aspiring Software Engineer</h2>

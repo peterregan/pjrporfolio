@@ -5,7 +5,6 @@ class Contact extends React.Component {
         return (
             <div><h1>Contact</h1>
                 <body>
-                {this.props.body}
                 </body>
             </div>
         )
