@@ -1,31 +1,31 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import {withStyles} from "@material-ui/core";
-import AboutText from '../textbodies/AboutText';
+import '../stylesheets/About.css'
 
 {/* styles */}
 const styles = {
     root: {
-        backgroundColor: 'red',
-        height: '100%',
-        width: '100%'
+        flexGrow: 1,
+        height: '100vh',
+        display: 'flex'
     },
     grid: {
-        marginTop: '3%',
+        color: 'black',
     },
     gridleft: {
 
-
     },
     gridright: {
-        backgroundColor: 'blue',
-        color: 'white',
+        backgroundColor: 'white',
+        height: '100%',
+    },
+    paper: {
 
     },
     image: {
-        marginLeft: '10%',
-        width: '400px',
-        height: '500px',
+        width: '100%',
+        height: '100%'
     }
 };
 
@@ -34,14 +34,19 @@ class About extends React.Component {
         const { classes } = this.props;
         return (
             <div className={classes.root}>
-                <Grid container spacing={3} className={classes.grid}>
+                <Grid container spacing={0} className={classes.grid}>
                     <Grid item xs={5} className={classes.gridleft}>
                         <img src={require('../images/peterpropic.jpg')} alt="Peter" className={classes.image} />
                     </Grid>
                     <Grid item xs={7} className={classes.gridright}>
-                        <h1>Welcome!</h1>
-                        <h2>My name is Peter</h2>
-                        <body>{AboutText}</body>
+                        <div className="aboutbody">
+                        <p>
+                                Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
+                                dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
+                                Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
+                                sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
+                        </p>
+                        </div>
                     </Grid>
                 </Grid>
             </div>
