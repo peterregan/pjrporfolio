@@ -9,6 +9,7 @@ import IconLink from "./IconLink";
 import Avatar from "@material-ui/core/Avatar";
 
 
+{/* styles */}
 const styles = {
     root:{
         marginTop: '3%',
@@ -40,6 +41,7 @@ const styles = {
 
 };
 
+// Home Page
 class Home extends React.Component {
 
     render() {
@@ -53,7 +55,7 @@ class Home extends React.Component {
                         <h1>Peter Regan</h1>
                         <h2>Aspiring Software Engineer</h2>
                         <h1>. . . . . . . . . . . . . . . . . . . . . . . . .</h1>
-                        <h2>| Java | Javascript | React | Python | R |</h2>
+                        <h2>Java | Javascript | React | Python | R</h2>
 
             {/*social links*/}
             <div className={classes.links}>
