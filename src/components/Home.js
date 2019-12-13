@@ -21,8 +21,7 @@ const styles = {
     },
     grid:{
         padding: '2%',
-        backgroundColor: 'black',
-        opacity: '75%',
+        backgroundColor: 'rgba(0,0,0,.75)',
         fontSize: '24px',
         align: 'center',
         margin: 'auto',
