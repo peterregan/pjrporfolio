@@ -1,18 +1,16 @@
-## Hello Professor Bridgeman !
+# pjrportfolio
+ ------------------------------------
+## Welcome Professor Bridgeman !
 ### How to run my program step by step
 1) open https://codesandbox.io/ in a web browser
 2) click Create SandBox
 3) click import project
-4) copy the 
+4) copy my repo location: https://github.com/peterregan/pjrporfolio.git
+5) paste into textfield under import from GitHub
+6) click Generate sandbox
 
-
-
-
-
-
-
-
-
+### NOTE: you can also install react on your computer by doing the following steps below but this is the easiest way I know of without you having to download any software at all.
+ ------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
