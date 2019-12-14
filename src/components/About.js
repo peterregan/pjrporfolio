@@ -21,10 +21,10 @@ const styles = {
   },
   grid: {},
   gridleft: {
-    backgroundColor: "dimgray"
+    backgroundColor: "white"
   },
   gridright: {
-    backgroundColor: "dimgray"
+    backgroundColor: "white"
   }
 };
 
@@ -37,7 +37,7 @@ class About extends React.Component {
           <Grid item xs={6} className={classes.gridleft}>
             <div className="aboutdivleft">
               <img
-                src={require("../images/peterpropic.jpg")}
+                src={require("../images/aboutmepic.jpg")}
                 alt="Peter"
                 className="aboutimg"
               />
@@ -45,7 +45,7 @@ class About extends React.Component {
           </Grid>
           <Grid item xs={6} className={classes.gridright}>
             <div className="aboutdivright">
-              <h1 className="aboutheader"> About Me. </h1>
+              <h1 className="aboutheader"> About Me </h1>
               <p className="aboutpara">{aboutparaText}</p>
             </div>
           </Grid>
