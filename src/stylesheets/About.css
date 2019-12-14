@@ -1,19 +1,26 @@
+.aboutdivleft {
+  margin: 10%;
+}
+
 .aboutimg {
-  margin: 15%;
   max-width: 100%;
   max-height: 100%;
   height: 500px;
-  width: 300px;
+  width: 400px;
 }
-.aboutdiv {
+.aboutdivright {
   margin: 10%;
-  outline-style: solid;
-  padding: 2%;
 }
 .aboutheader {
-  font-size: 35px;
+  font-size: 40px;
+  color: #2ebf91;
 }
-.aboutsubheader {
-}
+
 .aboutpara {
+  outline-style: solid;
+  outline-color: white;
+  color: white;
+
+  padding: 5%;
+  font-size: 30px;
 }
