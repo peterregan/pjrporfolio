@@ -1,7 +1,9 @@
 ## Hello Professor Bridgeman !
 ### How to run my program step by step
 1) open https://codesandbox.io/ in a web browser
-2)
+2) click Create SandBox
+3) click import project
+4) copy the 
 
 
 
