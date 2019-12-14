@@ -1,6 +1,7 @@
 ## Hello Professor Bridgeman !
-Here I will explain how to run my program in a web browser:
-### https://codesandbox.io/
+### How to run my program step by step
+1) open https://codesandbox.io/ in a web browser
+2)
 
 
 
