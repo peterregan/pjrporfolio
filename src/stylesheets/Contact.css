@@ -1,0 +1,37 @@
+.leftdiv {
+  color: black;
+  padding: 3%;
+  text-align: center;
+}
+.leftheader {
+  text-shadow: 0px 4px 4px #2ebf91;
+}
+.contactimg {
+  max-width: 100%;
+  max-height: 100%;
+  width: 500px;
+  height: auto;
+  margin: 3%;
+  border-radius: 25px;
+}
+
+.rightdiv {
+  color: black;
+  padding: 3%;
+}
+.rightheaderdiv {
+  text-align: center;
+}
+.rightheader {
+  text-shadow: 0px 4px 4px #2ebf91;
+}
+.dots {
+  text-shadow: 0px 4px 4px #2ebf91;
+}
+.contacts {
+}
+.contacts li {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+}

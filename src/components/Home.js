@@ -57,7 +57,7 @@ class Home extends React.Component {
           <Grid item xs={12}>
             <Avatar
               src={require("../images/peterpropic.jpg")}
-              alt="Peter"
+              alt="home"
               className={classes.bigAvatar}
             />
             <h1>Peter Regan</h1>

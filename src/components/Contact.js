@@ -3,34 +3,30 @@ import Grid from "@material-ui/core/Grid";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import { withStyles } from "@material-ui/core";
-import IconLink from "./IconLink";
+import Typography from "@material-ui/core/Typography";
+import "../stylesheets/Contact.css";
+
+/*styles */
 const styles = {
   root: {
     display: "flex", // display
-    textAlign: "center",
     color: "white",
-    margin: "10%"
+    margin: "5%"
   },
   grid: {
     backgroundColor: "white", //color
-    padding: "4%", // margins, padding, borders
     borderRadius: "25px",
     borderStyle: "solid",
-    borderColor: "black",
+    borderColor: "#2ebf91",
     margin: "auto",
-
     fontSize: "24px", // text/color
     align: "center" // alignment
   },
-  gridleft: {
-    backgroundColor: "red"
-  },
-  gridright: {
-    backgroundColor: "blue",
-    color: "black"
-  }
+  gridleft: {},
+  gridright: {}
 };
 
+/* contact page */
 class Contact extends React.Component {
   render() {
     const { classes } = this.props;
@@ -38,30 +34,57 @@ class Contact extends React.Component {
       <div className={classes.root}>
         <Grid container spacing={0} className={classes.grid}>
           <Grid item xs={4} className={classes.gridleft}>
-            <div>
+            <div className="leftdiv">
               <h1 className="leftheader">Peter Regan</h1>
               <img
+                className="contactimg"
                 src={require("../images/aboutmepic.jpg")}
-                className="aboutimg"
+                alt="contact"
               />
             </div>
           </Grid>
           <Grid item xs={8} className={classes.gridright}>
-            <div>
-              <h1 className="rightheader">Contact Me</h1>
-              <h2 className="dots">. . . . . .</h2>
+            <div className="rightdiv">
+              <div className="rightheaderdiv">
+                <h1 className="rightheader">Contact Me</h1>
+                <h2 className="dots">. . . . . .</h2>
+              </div>
               <ul className="contacts">
                 <li>
-                  <PhoneIcon />
+                  <PhoneIcon style={{ fontSize: "50px" }} />
+                  <Typography
+                    style={{ padding: "25px", fontWeight: "bold" }}
+                    variant="h5"
+                  >
+                    Cell: (703) - 586 - 8548
+                  </Typography>
                 </li>
                 <li>
-                  <PhoneIcon />
+                  <PhoneIcon style={{ fontSize: "50px" }} />
+                  <Typography
+                    style={{ padding: "25px", fontWeight: "bold" }}
+                    variant="h5"
+                  >
+                    Home: (703) - 221 - 1933
+                  </Typography>
                 </li>
                 <li>
-                  <EmailIcon />
+                  <EmailIcon style={{ fontSize: "50px" }} />
+                  <Typography
+                    style={{ padding: "25px", fontWeight: "bold" }}
+                    variant="h5"
+                  >
+                    School Email: peter.regan@hws.edu
+                  </Typography>
                 </li>
                 <li>
-                  <EmailIcon />
+                  <EmailIcon style={{ fontSize: "50px" }} />
+                  <Typography
+                    style={{ padding: "25px", fontWeight: "bold" }}
+                    variant="h5"
+                  >
+                    General Email: pjr79wlc@gmail.com
+                  </Typography>
                 </li>
               </ul>
             </div>
