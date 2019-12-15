@@ -1,65 +1,38 @@
 
 .aboutdivleft {
-
-  margin-left: 20%;
-  margin-top: 10%;
-
+  margin: 10% 5% 5% 20%;
 }
-
-
-
 .aboutimg {
   max-width: 100%;
   max-height: 100%;
-  width: 425px;
-  height: 600px;
-
+  width: 400px;
+  height: auto;
   border: 2px;
-
   border-color:black;
-
   border-style: solid;
-
   border-radius: 25px;
-
-
 }
 
 .aboutdivright {
-
   margin: 10%;
-
 }
 
 .aboutheader {
-
   font-size: 40px;
-
   text-align: center;
-
   color: black;
-
   text-shadow:0px 4px 4px dimgray;
 
 }
 
-
-
 .aboutpara {
-
   border: 2px;
-
   border-color:black;
-
   border-style: solid;
-
   border-radius: 25px;
-
   outline-width: 3px;
-
   color: dimgray;
-
+  padding: 3%;
   font-size: 25px;
-
 }​
 
