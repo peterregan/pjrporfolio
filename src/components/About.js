@@ -10,21 +10,19 @@ complementary Mathematics and Physics Minors.
 I am currently seeking job opportunities involing software engineering,
 web design, machine learning, and or data science.`;
 
-{
-  /* styles */
-}
+/* inline jsx styles for page*/
 const styles = {
   root: {
     flexGrow: 1,
-    height: "100vh",
+    height: "100vh", // make root div size of whole page
     display: "flex"
   },
   grid: {},
   gridleft: {
-    backgroundColor: "white"
+    backgroundColor: "white" // color
   },
   gridright: {
-    backgroundColor: "white"
+    backgroundColor: "white" // color
   }
 };
 
