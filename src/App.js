@@ -18,10 +18,6 @@ class App extends React.Component {
                 link: '/about'
             },
             {
-                name: 'Projects',
-                link: '/projects'
-            },
-            {
                 name: 'Contact',
                 link: '/contact'
             },
@@ -34,7 +30,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <header>
-                <NavBar title={this.state.title} buttons={this.state.buttons}/>
+                <NavBar title={this.state.title} noTitle={false} buttons={this.state.buttons}/>
                 </header>
                 <body>
                 <Main/>

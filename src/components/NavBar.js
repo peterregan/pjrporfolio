@@ -1,5 +1,5 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import React from "react";
+import { withStyles } from '@material-ui/core/';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from "@material-ui/core/Typography";
@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button";
 
 
 // styles for the navbar
-const useStyles = makeStyles(theme => ({
+const styles = {
     root: {
         backgroundColor: 'black',
         color: 'white',
@@ -26,23 +26,25 @@ const useStyles = makeStyles(theme => ({
     }
 
 
-}));
+}
+
+
+
 
 // export the NavBar component to be used elsewhere
-export default function Navbar(props){
+class NavBar extends React.Component {
 
-    // create all the buttons for the navbar
-    let buttons = props.buttons.map((button) => (
-        <Button href={button.link} color='inherit'>{button.name}</Button>
-    ))
-
+    render() {
     // implement UI styles
-    const classes = useStyles();
-    return(<div >
+    const { classes } = this.props;
+    let buttons = this.props.buttons.map((button) => (<Button href={button.link} color='inherit'>{button.name}</Button>));
+                // create all the buttons for the navbar
+    return(
+    <div >
             <AppBar className={classes.root} position = 'static'>
                 <Toolbar className={classes.toolbar}>
                     <Typography variant = 'h6' className={classes.title}>
-                        {props.title}
+                        {this.props.noTitle ?  '': this.props.title}
                     </Typography>
                     <div className={classes.buttons}>
                     {buttons}
@@ -53,3 +55,5 @@ export default function Navbar(props){
 
     );
 }
+}
+export default withStyles(styles)(NavBar);
