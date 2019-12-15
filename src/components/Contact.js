@@ -10,7 +10,6 @@ import "../stylesheets/Contact.css";
 const styles = {
   root: {
     display: "flex", // display
-    color: "white",
     margin: "5%"
   },
   grid: {
@@ -38,7 +37,7 @@ class Contact extends React.Component {
               <h1 className="leftheader">Peter Regan</h1>
               <img
                 className="contactimg"
-                src={require("../images/aboutmepic.jpg")}
+                src={require("../images/contactpic.jpg")}
                 alt="contact"
               />
             </div>
@@ -74,7 +73,7 @@ class Contact extends React.Component {
                     style={{ padding: "25px", fontWeight: "bold" }}
                     variant="h5"
                   >
-                    School Email: peter.regan@hws.edu
+                    School Email: peter.regan @ hws.edu
                   </Typography>
                 </li>
                 <li>
@@ -83,7 +82,7 @@ class Contact extends React.Component {
                     style={{ padding: "25px", fontWeight: "bold" }}
                     variant="h5"
                   >
-                    General Email: pjr79wlc@gmail.com
+                    General Email: pjr79wlc @ gmail.com
                   </Typography>
                 </li>
               </ul>
