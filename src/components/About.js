@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import { withStyles } from "@material-ui/core";
 import "../stylesheets/About.css";
 
+/* body text paragraph for this page*/
 const aboutparaText = `My name is Peter Regan and here is a little about myself. 
 I am currently a Junior at Hobart and William Smith Colleges 
 studying to obtain a B.S. in computer Science coupled with 
