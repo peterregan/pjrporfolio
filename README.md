@@ -5,7 +5,7 @@
 1) open https://codesandbox.io/ in a web browser
 2) click Create SandBox
 3) click import project
-4) copy my repo location: https://github.com/peterregan/pjrporfolio.git
+4) copy my repo location: https://github.com/peterregan/pjrporfolio
 5) paste into textfield under import from GitHub
 6) click Generate sandbox
 7) Now you should be able to view my portfolio to the right of the screen and also see all the code I have written in the package explorer on the left side
