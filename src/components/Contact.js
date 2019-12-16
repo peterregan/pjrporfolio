@@ -37,7 +37,7 @@ class Contact extends React.Component {
               <h1 className="leftheader">Peter Regan</h1>
               <img
                 className="contactimg"
-                src={require("../images/contactpic.jpg")}
+                src={require("../images/contactpagepic.jpg")}
                 alt="contact"
               />
             </div>
